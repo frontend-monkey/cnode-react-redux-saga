@@ -1,0 +1,65 @@
+$color:grey;
+.inner{
+  a{
+    color:#778087;
+  }
+  img{
+    width:100%;
+    height:auto;
+    vertical-align: middle;
+  }
+  p{
+    margin:0 0 10px;
+  }
+  button{
+    color:#778087;
+    cursor:pointer;
+  }
+  .git_btn{
+    display: inline-block;
+    cursor:pointer;
+    padding:3px 10px;
+    background-color:#5bc0de;
+    color:#fff;
+    font-size:14px;
+    letter-spacing: 2px;
+    border-radius:3px;
+    text-transform:capitalize;
+    vertical-align: middle;
+  }
+  ol{
+    margin:4px 0;
+    list-style:none;
+  }
+  .top_score{
+    color:$color;
+    padding:2px;
+    margin-right:10px;
+    margin-top:20px;
+    display: inline-block;
+  }
+  .user_name{
+    white-space:nowrap;
+    max-width:120px;
+    display:inline-block;
+    vertical-align:middle;
+    color:$color;
+  }
+}
+.creat_topic{
+  background-color:#80bd01;
+  border-radius:3px;
+  display:inline-block;
+  padding:3px 10px;
+  cursor:pointer;
+  color:#fff;
+  font-size:14px;
+  letter-spacing:2px;
+  line-height:2em;
+}
+.autors img{
+  width:48px;
+  height:48px;
+  margin-right:10px;
+  border-radius:3px;
+}
